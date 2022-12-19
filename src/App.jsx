@@ -1,11 +1,13 @@
+import { MainContent } from './Components/MainContent'
+import  Sidebar  from './Components/Sidebar.jsx'
 import './Styles/app.sass'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div id='portfolio'>
-      <h1>React + SASS</h1>
+      <h1>Karoline Gaia</h1>
+      <Sidebar/>
+      <MainContent/>
     </div>
   )
 }

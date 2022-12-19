@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import './Styles/app.sass'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div id='portfolio'>
       <h1>React + SASS</h1>
     </div>
   )

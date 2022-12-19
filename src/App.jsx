@@ -1,4 +1,4 @@
-import { MainContent } from './Components/MainContent'
+import  MainContent  from './Components/MainContent'
 import  Sidebar  from './Components/Sidebar.jsx'
 import './Styles/app.sass'
 

@@ -2,8 +2,10 @@
 
 Um projeto pessoal com intuito de criar meu portfólio com as principais linguagens de programação de desenvoldor Front-End
 
+## Imagem
+
 <div align="center">
-<img src="./Img/mobile.gif" width="400px" height="400px">
+<img src="./src/Img/Page.png" width="400px" height="400px">
 </div>
 
 ## Competências Desenvolvidas

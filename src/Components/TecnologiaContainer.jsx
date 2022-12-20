@@ -1,4 +1,12 @@
-import {DiHtml5, DiCss3, DiJsBadge, DiNodejsSmall, DiMysql, DiReact} from "react-icons/di"
+import {
+    DiHtml5,
+    DiCss3,
+    DiJsBadge,
+    DiNodejsSmall,
+    DiMysql,
+    DiReact,
+  } from "react-icons/di";
+  
 import "../Styles/Tecnologia.sass"
 
 const technologies = [
@@ -11,7 +19,22 @@ const technologies = [
   ];
 
 const Tecnologia = () => {
-    return
+    return (
+        <section className="tecnologia-container">
+          <h2>Tecnologias</h2>
+          <div className="tecnologia-grid">
+            {technologies.map((tech) => (
+              <div className="tecnologia-card" id={tech.id} key={tech.id}>
+                {tech.icon}
+                <div className="tecnologia-info">
+                  <h3>{tech.name}</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      );
 }
 
 export default Tecnologia

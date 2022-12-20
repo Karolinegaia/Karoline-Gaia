@@ -28,7 +28,7 @@ const Tecnologia = () => {
                 {tech.icon}
                 <div className="tecnologia-info">
                   <h3>{tech.name}</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <p>Utilizado para desenvolvimento web.</p>
                 </div>
               </div>
             ))}

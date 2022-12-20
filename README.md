@@ -19,7 +19,7 @@ Um projeto pessoal com intuito de criar meu portfólio com as principais linguag
 
 ## Deploy
 
-Confira [_aqui o deploy_](https:///) do nosso projeto.
+Confira [_aqui o deploy_](https://https://karoline-gaia.vercel.app/) do nosso projeto.
 
 
 

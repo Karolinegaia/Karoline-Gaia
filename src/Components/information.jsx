@@ -4,7 +4,7 @@ import "../Styles/information.sass";
 const Information = () => {
     return <section id="information">
         <div className="infor-card">
-            <AiFillPhone id="prone-icon"/>
+            <AiFillPhone id="phone-icon"/>
             <div>
                 <h3>Telefone</h3>
                 <p>(91) 9999-9999</p>                
